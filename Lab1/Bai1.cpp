@@ -4,7 +4,7 @@ using namespace std;
 struct fraction{
     int numerator, denominator;
     void symplify(){
-        if ( mau == 0 ) {
+        if ( denominator == 0 ) {
           cout << "invalid fraction\n"; 
           return; 
         }
